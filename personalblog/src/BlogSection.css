@@ -1,0 +1,34 @@
+.blog-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+}
+
+.blog-section {
+  display: flex; /* Change to flex container */
+  flex-wrap: wrap; /* Allow the cards to wrap */
+  justify-content: center; /* Center the content horizontally */
+}
+
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content vertically */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 10px; /* Add some spacing between the cards */
+}
+
+.blog-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-details {
+  margin-top: 10px;
+  text-align: center;
+  background-color: transparent; /* Remove background color */
+}
