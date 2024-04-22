@@ -4,6 +4,10 @@
   align-items: center; /* Center the content horizontally */
 }
 
+body {
+  background-color: purple;
+}
+
 .blog-section {
   display: flex; /* Change to flex container */
   flex-wrap: wrap; /* Allow the cards to wrap */
